@@ -14,7 +14,7 @@ def input_to_index(num)
   puts "Please indicate an X or O"
   choice = gets.to_i
   board[num] = (choice - 1)
-  puts display_board
+  puts display_board (board)
 end
 
 

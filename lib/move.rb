@@ -7,3 +7,17 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def input_to_index(num)
+  puts "Please indicate an X or O"
+  choice = gets.to_i
+  board[num] = (choice - 1)
+  puts display_board
+end
+
+
+def move
+  
+end

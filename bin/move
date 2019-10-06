@@ -3,3 +3,6 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+puts "Please enter a positional number for tic tac toe (1-9)"
+num = gets.strip
+input_to_index(num.to_i)
